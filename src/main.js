@@ -9,7 +9,7 @@ const routes = [
     {
         path: '/',
         name: 'index',
-        redirect: { name: 'catalogs' }
+        redirect: { name: 'home' }
     },
     ...CatalogsRoutes,
     ...HomeRoutes

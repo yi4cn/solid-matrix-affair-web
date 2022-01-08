@@ -40,7 +40,6 @@ export default {
   line-height: calc($sm-font-size + 8px);
   color: #eee;
   font-size: $sm-font-size;
-  padding: 0 8px;
-  background-color: rgba($color: $primary-color, $alpha: 0.8);
+  padding: 8px;
 }
 </style>
