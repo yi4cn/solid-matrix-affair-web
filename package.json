@@ -1,9 +1,12 @@
 {
-  "name": "solid-matrix-catalog-web",
+  "name": "solid-matrix-affair-web",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "staging": "NODE_ENV=development node deploy.js",
+    "deploy": "NODE_ENV=production node deploy.js",
+    "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -14,10 +17,15 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.15",
     "@vue/cli-plugin-eslint": "^4.5.15",
+    "@vue/cli-plugin-unit-mocha": "~4.5.0",
     "@vue/cli-service": "^4.5.15",
     "@vue/compiler-sfc": "^3.2.26",
+    "@vue/test-utils": "^2.0.0-0",
+    "ali-oss": "^6.16.0",
     "babel-eslint": "^10.1.0",
+    "chai": "^4.1.2",
     "css-loader": "^6.5.1",
+    "dotenv": "^11.0.0",
     "eslint": "6.8.0",
     "eslint-plugin-vue": "^8.2.0",
     "node-sass": "^7.0.1",
@@ -39,6 +47,22 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
-  }
+    "rules": {},
+    "overrides": [
+      {
+        "files": [
+          "**/__tests__/*.{j,t}s?(x)",
+          "**/tests/unit/**/*.spec.{j,t}s?(x)"
+        ],
+        "env": {
+          "mocha": true
+        }
+      }
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
 }

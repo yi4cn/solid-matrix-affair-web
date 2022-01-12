@@ -1,20 +1,6 @@
 import { createApp } from 'vue';
-
-// router
-import { createRouter, createWebHashHistory } from 'vue-router';
+import router from '@/router';
 import RouterLayout from '@/components/router-layout.vue';
-import CatalogsRoutes from '@/modules/catalogs/routes';
-import HomeRoutes from '@/modules/home/routes';
-const routes = [
-    {
-        path: '/',
-        name: 'index',
-        redirect: { name: 'home' }
-    },
-    ...CatalogsRoutes,
-    ...HomeRoutes
-];
-const router = createRouter({ history: createWebHashHistory(), routes });
 
 
 // store
