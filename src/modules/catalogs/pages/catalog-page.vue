@@ -37,12 +37,8 @@
 <script>
 import { computed } from "vue";
 import { useStore } from "vuex";
-import SmGrid from "@/components/sm-grid.vue";
-import SmRow from "@/components/sm-row.vue";
-import SmCol from "@/components/sm-col.vue";
 import CatalogsLayout from "../components/catalogs-layout.vue";
 import DesignCard from "../components/design-card.vue";
-import SmTitle from "@/components/sm-title.vue";
 
 export default {
   props: {
@@ -61,7 +57,7 @@ export default {
     return { catalog, title };
   },
 
-  components: { CatalogsLayout, SmGrid, SmRow, SmCol, SmTitle, DesignCard },
+  components: { CatalogsLayout, DesignCard },
 };
 </script>
 

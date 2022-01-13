@@ -15,13 +15,10 @@
 </template>
 
 <script>
-import smCard from "@/components/sm-card.vue";
-import SmImg from "@/components/sm-img.vue";
 export default {
   props: {
     catalog: Object,
   },
-  components: { smCard, SmImg },
 };
 </script>
 

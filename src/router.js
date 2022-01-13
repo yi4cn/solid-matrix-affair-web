@@ -2,7 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router';
 import { stringifyQuery } from '@/utils/url';
 
 import CatalogsRoutes from '@/modules/catalogs/routes';
-import DashboardRoutes from '@/modules/dashboard/routes';
+import WarehouseRoutes from '@/modules/warehouse/routes';
+
 const routes = [
     {
         path: '/',
@@ -10,7 +11,7 @@ const routes = [
         redirect: { name: 'catalogs' }
     },
     ...CatalogsRoutes,
-    ...DashboardRoutes
+    ...WarehouseRoutes
 ];
 
 

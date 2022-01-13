@@ -3,13 +3,13 @@
 </template>
 
 <script>
-import { computed, onMounted, onUpdated } from "@vue/runtime-core";
+import { onMounted, onUpdated, toRefs } from "@vue/runtime-core";
 export default {
   props: {
     title: String,
   },
   setup(props) {
-    const title = computed(() => props.title);
+    const { title } = toRefs(props);
     onMounted(() => {
       document.title = title.value || "";
     });

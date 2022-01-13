@@ -1,20 +1,19 @@
 import { createApp } from 'vue';
-import router from '@/router';
 import RouterLayout from '@/components/router-layout.vue';
 
-
-// store
-import { createStore } from 'vuex';
-import CatalogsStoreModule from '@/modules/catalogs/store';
-const store = createStore({
-    modules: { [CatalogsStoreModule.namespace]: CatalogsStoreModule }
-});
-
+import router from '@/router';
+import store from '@/store';
+import register from './register';
 
 // app
 const app = createApp(RouterLayout);
 app.use(router);
 app.use(store);
+
+// register global components
+register(app);
+
+// mount
 app.mount('#app');
 
 // init

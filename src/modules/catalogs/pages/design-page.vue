@@ -15,7 +15,6 @@ import { useStore } from "vuex";
 
 import DesignSheet from "../components/design-sheet.vue";
 import catalogsLayout from "../components/catalogs-layout.vue";
-import SmTitle from "@/components/sm-title.vue";
 
 export default {
   props: {
@@ -39,7 +38,7 @@ export default {
 
     return { catalog, design, title };
   },
-  components: { catalogsLayout, DesignSheet, SmTitle },
+  components: { catalogsLayout, DesignSheet },
 };
 </script>
 

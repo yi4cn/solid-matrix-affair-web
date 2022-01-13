@@ -40,12 +40,8 @@
 <script>
 import { computed } from "vue";
 import { useStore } from "vuex";
-import SmGrid from "@/components/sm-grid.vue";
-import SmRow from "@/components/sm-row.vue";
-import SmCol from "@/components/sm-col.vue";
 import CatalogsLayout from "../components/catalogs-layout.vue";
 import CatalogCard from "../components/catalog-card.vue";
-import SmTitle from "@/components/sm-title.vue";
 
 export default {
   setup() {
@@ -56,7 +52,7 @@ export default {
     const title = computed(() => homeMeta.value.title || "Catalogs");
     return { catalogs, title, homeMeta };
   },
-  components: { SmGrid, SmRow, SmCol, SmTitle, CatalogsLayout, CatalogCard },
+  components: { CatalogsLayout, CatalogCard },
 };
 </script>
 
