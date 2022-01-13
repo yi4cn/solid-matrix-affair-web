@@ -1,14 +1,9 @@
 <template>
-  <sm-wxauth>
-    <router-view />
-  </sm-wxauth>
+  <router-view />
 </template>
 
 <script>
-import smWxauth from "./sm-wxauth.vue";
-export default {
-  components: { smWxauth },
-};
+export default {};
 </script>
 
 <style lang="scss">

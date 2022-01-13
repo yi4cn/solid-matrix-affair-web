@@ -1,15 +1,16 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import CatalogsRoutes from '@/modules/catalogs/routes';
-import HomeRoutes from '@/modules/home/routes';
 import { stringifyQuery } from '@/utils/url';
+
+import CatalogsRoutes from '@/modules/catalogs/routes';
+import DashboardRoutes from '@/modules/dashboard/routes';
 const routes = [
     {
         path: '/',
         name: 'index',
-        redirect: { name: 'home' }
+        redirect: { name: 'catalogs' }
     },
     ...CatalogsRoutes,
-    ...HomeRoutes
+    ...DashboardRoutes
 ];
 
 
