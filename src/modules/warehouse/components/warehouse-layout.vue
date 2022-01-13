@@ -57,17 +57,18 @@ nav {
   flex-direction: row;
   height: $navbar-height;
   line-height: $navbar-height;
-  text-align: center;
-  font-size: $md-font-size;
+  font-size: $lg-font-size;
   padding: 0 32px;
   .dashboard-btn {
     flex-grow: 0;
     height: $navbar-height;
     width: $navbar-height;
     font-size: $lg-font-size;
+    text-align: center;
   }
   .title {
     flex-grow: 1;
+    text-align: left;
   }
 }
 main {

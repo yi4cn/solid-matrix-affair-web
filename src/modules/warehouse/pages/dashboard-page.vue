@@ -27,7 +27,7 @@
 
 <script>
 import PanelCard from "../components/panel-card.vue";
-import warehouseLayout from "../components/warehouse-layout.vue";
+import WarehouseLayout from "../components/warehouse-layout.vue";
 const funcs = [
   { icon: "import", name: "In Stock", route: "warehouse-in-stock" },
   { icon: "export", name: "Out Stock", route: "warehouse-out-stock" },
@@ -37,7 +37,7 @@ const funcs = [
 ];
 
 export default {
-  components: { warehouseLayout, PanelCard },
+  components: { WarehouseLayout, PanelCard },
   setup() {
     return { funcs };
   },
