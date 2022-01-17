@@ -1,47 +1,33 @@
-import DashboardPage from './pages/dashboard-page.vue';
-import InStockPage from './pages/in-stock-page.vue';
-import OutStockPage from './pages/out-stock-page.vue';
-import QueryStockPage from './pages/query-stock-page.vue';
-import QueryLocationPage from './pages/query-location-page.vue';
-import CategoryPage from './pages/category-page.vue';
-
-import TestPage from './pages/test-page.vue';
-
 const routes = [
     {
         path: '/warehouse/',
         name: 'warehouse-dashboard',
-        component: DashboardPage,
+        component: require('./pages/dashboard-page.vue').default,
     },
     {
         path: '/warehouse/in-stock/',
         name: 'warehouse-in-stock',
-        component: InStockPage
+        component: require('./pages/in-stock-page.vue').default
     },
     {
         path: '/warehouse/out-stock/',
         name: 'warehouse-out-stock',
-        component: OutStockPage
+        component: require('./pages/out-stock-page.vue').default
     },
     {
         path: '/warehouse/query-stock/',
         name: 'warehouse-query-stock',
-        component: QueryStockPage
+        component: require('./pages/query-stock-page.vue').default
     },
     {
         path: '/warehouse/query-location/',
         name: 'warehouse-query-location',
-        component: QueryLocationPage
+        component: require('./pages/query-location-page.vue').default
     },
     {
         path: '/warehouse/category/',
         name: 'warehouse-category',
-        component: CategoryPage
-    },
-    {
-        path: '/test/',
-        name: 'test',
-        component: TestPage,
+        component: require('./pages/category-page.vue').default
     }
 ];
 
