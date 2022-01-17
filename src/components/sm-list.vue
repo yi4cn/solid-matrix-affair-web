@@ -8,6 +8,5 @@ export default {};
 @import "@/assets/const.scss";
 .list {
   border: $list-color 2px solid;
-  border-radius: 8px;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <sm-title title="品类管理" />
   <warehouse-layout title="品类管理">
-    <div class="box">
+    <div class="wrapper">
       <categories-list :editable="editable" :categories="categories" />
     </div>
   </warehouse-layout>
@@ -22,7 +22,7 @@ const categories = computed(() => store.state.warehouse.categories);
 
 <style lang="scss" scoped>
 @import "@/assets/const.scss";
-.box {
+.wrapper {
   padding: 16px;
 }
 </style>;
