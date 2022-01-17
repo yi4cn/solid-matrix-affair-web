@@ -15,14 +15,19 @@ const routes = [
         component: require('./pages/out-stock-page.vue').default
     },
     {
-        path: '/warehouse/query-stock/',
-        name: 'warehouse-query-stock',
-        component: require('./pages/query-stock-page.vue').default
+        path: '/warehouse/query-pattern/',
+        name: 'warehouse-query-pattern',
+        component: require('./pages/query-pattern-page.vue').default
     },
     {
         path: '/warehouse/query-location/',
         name: 'warehouse-query-location',
         component: require('./pages/query-location-page.vue').default
+    },
+    {
+        path: '/warehouse/query-item/',
+        name: 'warehouse-query-item',
+        component: require('./pages/query-item-page.vue').default
     },
     {
         path: '/warehouse/category/',

@@ -3,6 +3,8 @@ import { stringifyQuery } from '@/utils/url';
 
 import CatalogsRoutes from '@/modules/catalogs/routes';
 import WarehouseRoutes from '@/modules/warehouse/routes';
+import ToolkitsRoutes from '@/modules/toolkits/routes';
+import HomeRoutes from '@/modules/home/routes';
 
 const routes = [
     {
@@ -11,7 +13,9 @@ const routes = [
         redirect: { name: 'catalogs' }
     },
     ...CatalogsRoutes,
-    ...WarehouseRoutes
+    ...WarehouseRoutes,
+    ...ToolkitsRoutes,
+    ...HomeRoutes,
 ];
 
 

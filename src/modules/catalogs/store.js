@@ -1,6 +1,6 @@
 import { getMeta, getDesignUrl } from './services/resource-api';
 
-const CatalogsStoreModule = {
+export default {
     namespace: 'catalogs',
     namespaced: true,
     state: () => {
@@ -92,4 +92,3 @@ const CatalogsStoreModule = {
     }
 };
 
-export default CatalogsStoreModule;

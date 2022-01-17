@@ -31,8 +31,13 @@ import WarehouseLayout from "../components/warehouse-layout.vue";
 const funcs = [
   { icon: "import", name: "快速入仓", route: "warehouse-in-stock" },
   { icon: "export", name: "快速出仓", route: "warehouse-out-stock" },
-  { icon: "query", name: "仓位查询", route: "warehouse-query-location" },
-  { icon: "search", name: "商品查询", route: "warehouse-query-stock" },
+  {
+    icon: "query-location",
+    name: "仓位查询",
+    route: "warehouse-query-location",
+  },
+  { icon: "query-pattern", name: "花型查询", route: "warehouse-query-pattern" },
+  { icon: "query-item", name: "商品查询", route: "warehouse-query-item" },
   { icon: "category", name: "品类管理", route: "warehouse-category" },
   { icon: "catalogs", name: "花型相册", route: "catalogs" },
 ];

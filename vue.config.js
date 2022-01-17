@@ -4,5 +4,6 @@ module.exports = {
       preProcessor: 'scss',
       patterns: []
     }
-  }
+  },
+  productionSourceMap: false
 }

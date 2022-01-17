@@ -1,6 +1,6 @@
 <template>
-  <sm-title title="商品查询" />
-  <warehouse-layout title="商品查询">
+  <sm-title title="花型查询" />
+  <warehouse-layout title="花型查询">
     <div class="wrapper">
       <sm-input-group>
         <sm-input-label>花型号</sm-input-label>

@@ -1,6 +1,6 @@
 import { getCategories, getItemsByPattern, getItemsByLocation } from './services/warehouse-service';
 
-const WarehouseStoreModule = {
+export default {
     namespace: 'warehouse',
     namespaced: true,
 
@@ -51,5 +51,4 @@ const WarehouseStoreModule = {
 
         },
     }
-}
-export default WarehouseStoreModule;
+};
