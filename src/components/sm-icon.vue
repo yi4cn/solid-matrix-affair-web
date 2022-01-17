@@ -5,7 +5,7 @@
 </template>
 <script setup>
 import { defineProps } from "vue";
-import icons from "./icons";
+import icons from "../assets/icons";
 const props = defineProps({ icon: String });
 const render = () => icons[props.icon];
 </script>
