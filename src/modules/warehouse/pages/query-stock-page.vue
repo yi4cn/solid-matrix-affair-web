@@ -8,6 +8,12 @@
         <sm-input-button @click="search">查询</sm-input-button>
       </sm-input-group>
       <sm-blank size="xs" />
+      <div class="result-meta" v-if="searchContent">
+        <span>查询: {{ searchContent }}</span>
+        <span>总匹数：{{ structItems.count }}</span>
+        <span>总米数：{{ structItems.total }}</span>
+      </div>
+      <sm-blank size="xs" />
       <div class="result-tree">
         <sm-tree
           v-for="name in Object.keys(structItems.names)"
@@ -49,13 +55,25 @@
 <script setup>
 import WarehouseLayout from "../components/warehouse-layout.vue";
 import { useStore } from "vuex";
-import { computed, ref } from "vue";
+import { computed, ref, onMounted } from "vue";
 const store = useStore();
 
 const patternSearch = ref();
+const searchContent = ref("");
+
+onMounted(() => {
+  store.dispatch("warehouse/clearItems");
+});
+
+const search = () => {
+  const search = patternSearch.value.value;
+  if (search && search.trim().length > 0) {
+    searchContent.value = search;
+    store.dispatch("warehouse/queryByPattern", search);
+  }
+};
 
 const items = computed(() => {
-  console.log("item update");
   return store.state.warehouse.items;
 });
 
@@ -97,30 +115,19 @@ const structItems = computed(() => {
   }
   return res;
 });
-
-structItems;
-
-const search = () => {
-  const search = patternSearch.value.value;
-  store.dispatch("warehouse/queryByPattern", search);
-};
-
-// import { computed } from "vue";
-
-// const items = computed(() => []);
-
-// const itemDict = computed(() => {
-//   const res = {};
-//   for (let i = 0; i < items.length; i++) {
-//     const name = items.name
-//   }
-// });
 </script>
 
 <style lang="scss" scoped>
 @import "@/assets/const.scss";
 .wrapper {
   padding: 16px;
+}
+.result-meta {
+  font-size: $sm-font-size;
+  font-weight: bold;
+  span {
+    padding: 0 8px;
+  }
 }
 .result-tree {
   font-size: $sm-font-size;

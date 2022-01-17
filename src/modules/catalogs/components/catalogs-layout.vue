@@ -57,8 +57,6 @@ export default {
   methods: {
     onSearch() {
       const search = this.$refs.searchInput.value.trim();
-
-      console.log("search ", search);
       if (search && search.length > 0)
         this.$router.push({ name: "catalogs-search", params: { search } });
     },

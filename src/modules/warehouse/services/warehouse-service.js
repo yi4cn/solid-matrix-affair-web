@@ -24,11 +24,12 @@ export async function getItem(item) {
     item;
 }
 
-export async function getItemByLocation(location) {
-    location;
+export async function getItemsByLocation(search) {
+    search;
+    return require('./items.json');
 }
 
-export async function getItemByPattern(search) {
+export async function getItemsByPattern(search) {
     search;
     return require('./items.json');
 }
