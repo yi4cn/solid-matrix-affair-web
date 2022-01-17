@@ -1,8 +1,11 @@
 import DashboardPage from './pages/dashboard-page.vue';
 import InStockPage from './pages/in-stock-page.vue';
 import OutStockPage from './pages/out-stock-page.vue';
-import QueryPage from './pages/query-stock-page.vue';
+import QueryStockPage from './pages/query-stock-page.vue';
+import QueryLocationPage from './pages/query-location-page.vue';
 import CategoryPage from './pages/category-page.vue';
+
+import TestPage from './pages/test-page.vue';
 
 const routes = [
     {
@@ -23,13 +26,23 @@ const routes = [
     {
         path: '/warehouse/query-stock/',
         name: 'warehouse-query-stock',
-        component: QueryPage
+        component: QueryStockPage
+    },
+    {
+        path: '/warehouse/query-location/',
+        name: 'warehouse-query-location',
+        component: QueryLocationPage
     },
     {
         path: '/warehouse/category/',
         name: 'warehouse-category',
         component: CategoryPage
     },
+    {
+        path: '/test/',
+        name: 'test',
+        component: TestPage,
+    }
 ];
 
 export default routes;

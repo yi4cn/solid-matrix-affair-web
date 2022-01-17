@@ -1,4 +1,4 @@
-const apiUrl = process.env['VUE_APP_CATALOGS_API_BASE_URL'] + "/catalogs";
+const apiUrl = process.env['VUE_APP_CATALOGS_API_BASE_URL'];
 
 export async function getMeta() {
     try {

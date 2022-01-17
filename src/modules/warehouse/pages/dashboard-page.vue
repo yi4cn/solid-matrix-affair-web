@@ -1,6 +1,6 @@
 <template>
-  <sm-title title="Dashboard" />
-  <warehouse-layout title="Dashboard">
+  <sm-title :title="title" />
+  <warehouse-layout :title="title">
     <div class="panel">
       <sm-grid>
         <sm-row>
@@ -29,17 +29,19 @@
 import PanelCard from "../components/panel-card.vue";
 import WarehouseLayout from "../components/warehouse-layout.vue";
 const funcs = [
-  { icon: "import", name: "In Stock", route: "warehouse-in-stock" },
-  { icon: "export", name: "Out Stock", route: "warehouse-out-stock" },
-  { icon: "query", name: "Query Stock", route: "warehouse-query-stock" },
-  { icon: "category", name: "Category", route: "warehouse-category" },
-  { icon: "catalogs", name: "Catalogs", route: "catalogs" },
+  { icon: "import", name: "进仓操作", route: "warehouse-in-stock" },
+  { icon: "export", name: "出仓操作", route: "warehouse-out-stock" },
+  { icon: "query", name: "仓位查询", route: "warehouse-query-location" },
+  { icon: "search", name: "商品查询", route: "warehouse-query-stock" },
+  { icon: "category", name: "品类管理", route: "warehouse-category" },
+  { icon: "catalogs", name: "花型相册", route: "catalogs" },
 ];
 
 export default {
   components: { WarehouseLayout, PanelCard },
   setup() {
-    return { funcs };
+    const title = "控制面板";
+    return { funcs, title };
   },
 };
 </script>

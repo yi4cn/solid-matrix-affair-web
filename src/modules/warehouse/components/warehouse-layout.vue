@@ -3,12 +3,12 @@
   <div class="layout" v-if="ready">
     <header>
       <nav>
-        <button
+        <div
           class="dashboard-btn"
           @click="$router.push({ name: 'warehouse-dashboard' })"
         >
           <sm-icon icon="dashboard" />
-        </button>
+        </div>
         <div class="title">{{ title }}</div>
       </nav>
     </header>
@@ -32,7 +32,7 @@ export default {
   },
   setup() {
     const store = useStore();
-    const ready = computed(() => store.getters["warehouse/getReady"]());
+    const ready = computed(() => store.state.warehouse.ready);
     setTimeout(() => store.commit("warehouse/stopLoad"), 500);
     return {
       ready,
@@ -65,6 +65,7 @@ nav {
     width: $navbar-height;
     font-size: $lg-font-size;
     text-align: center;
+    cursor: pointer;
   }
   .title {
     flex-grow: 1;

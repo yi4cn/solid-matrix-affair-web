@@ -25,23 +25,15 @@
       <div class="fixed">
         <div class="navbarbox">
           <div class="navbar">
-            <button class="btn" @click="$router.back()">
-              <sm-icon icon="back" />
-            </button>
-            <button class="btn" @click="$router.push({ name: 'catalogs' })">
-              <sm-icon icon="catalogs" />
-            </button>
-            <div class="search">
-              <input
-                class="search-text"
-                @keyup.enter="onSearch"
-                ref="searchInput"
-                type="search"
+            <sm-input-group>
+              <sm-input-button icon="back" @click="$router.back()" />
+              <sm-input-button
+                icon="catalogs"
+                @click="$router.push({ name: 'catalogs' })"
               />
-            </div>
-            <button class="btn" @click="onSearch">
-              <sm-icon icon="search" />
-            </button>
+              <sm-input-text search @keyup.enter="onSearch" ref="searchInput" />
+              <sm-input-button icon="search" @click="onSearch" />
+            </sm-input-group>
           </div>
         </div>
       </div>
@@ -64,7 +56,9 @@ export default {
   },
   methods: {
     onSearch() {
-      const search = this.$refs.searchInput.value;
+      const search = this.$refs.searchInput.value.trim();
+
+      console.log("search ", search);
       if (search && search.length > 0)
         this.$router.push({ name: "catalogs-search", params: { search } });
     },
@@ -120,9 +114,7 @@ export default {
     height: $footer-height;
     line-height: $footer-height;
     font-size: $footer-font-size;
-    .copyright {
-      text-align: center;
-    }
+    text-align: center;
   }
 
   .nav {
@@ -135,44 +127,16 @@ export default {
       left: 0;
       width: 100%;
       .navbarbox {
-        margin: 8px;
-        position: relative;
         .navbar {
-          margin: 0 auto;
+          margin: 8px auto;
+          position: relative;
           border-radius: 8px;
-          padding: 0 8px;
-          display: flex;
-          flex-direction: row;
-          height: $navbar-height;
-          background-color: $navbar-bg-color;
+          font-size: $xl-font-size;
           box-shadow: 0 0 8px black;
-          max-width: 400px;
-          .btn {
-            height: $navbar-height;
-            width: calc($navbar-height - 16px);
-            line-height: $navbar-height;
+          max-width: 480px;
+          * {
+            background-color: $auxiliary-color;
             color: $primary-color;
-            font-size: calc($navbar-height/2);
-            text-align: center;
-          }
-          .search {
-            flex-grow: 1;
-            height: calc($navbar-height - 16px);
-            line-height: calc($navbar-height - 16px);
-            width: $navbar-height;
-            color: $primary-color;
-            font-size: $lg-font-size;
-            text-align: right;
-            padding: 8px 0;
-
-            display: flex;
-            .search-text {
-              flex-basis: auto;
-              width: 100%;
-              border: 1px $primary-color solid;
-              border-radius: 8px;
-              padding: 4px 8px;
-            }
           }
         }
       }

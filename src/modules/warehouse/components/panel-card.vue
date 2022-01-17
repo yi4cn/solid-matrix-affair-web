@@ -10,14 +10,14 @@
     </router-link>
   </div>
 </template>
-<script>
-export default {
-  props: {
-    icon: String,
-    name: String,
-    route: String,
-  },
-};
+<script setup>
+import { defineProps } from "vue";
+
+defineProps({
+  icon: String,
+  name: String,
+  route: String,
+});
 </script>
 
 <style lang="scss" scoped>
@@ -27,7 +27,6 @@ export default {
   background-color: $primary-color;
   color: $auxiliary-color;
   padding: 8px;
-  border-radius: 16px;
   .icon {
     line-height: calc(2 * $xl-font-size);
     font-size: $xl-font-size;
