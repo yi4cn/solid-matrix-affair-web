@@ -29,7 +29,7 @@ const toggle = () => (open.value = !open.value);
 .sm-tree {
   .sm-tree-icon {
     display: inline-block;
-    width: 32px;
+    width: 16px;
     text-align: center;
   }
   .sm-tree-value {
@@ -37,8 +37,8 @@ const toggle = () => (open.value = !open.value);
   }
   .sm-tree-children {
     border-left: 2px solid $neutral-color;
-    margin-left: 15px;
-    padding-left: 15px;
+    margin-left: 7px;
+    padding-left: 7px;
   }
 }
 </style>

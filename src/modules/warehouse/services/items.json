@@ -1,0 +1,2746 @@
+[
+    {
+        "id": "5b1f357f5d11a8002a2fc8e6",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37205"
+    },
+    {
+        "id": "5b1f35885d11a8002a2fc8e7",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37203"
+    },
+    {
+        "id": "5b1f35b63601b50029b9bbe0",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37602"
+    },
+    {
+        "id": "5b1f35b95d11a8002a2fc8e8",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37603"
+    },
+    {
+        "id": "5b1f35bd3601b50029b9bbe1",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37604"
+    },
+    {
+        "id": "5b1f35c15d11a8002a2fc8e9",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37605"
+    },
+    {
+        "id": "5b1f35c53601b50029b9bbe2",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37606"
+    },
+    {
+        "id": "5b1f35c75d11a8002a2fc8ea",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37607"
+    },
+    {
+        "id": "5b1f35ca3601b50029b9bbe3",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37608"
+    },
+    {
+        "id": "5b1f35cd5d11a8002a2fc8eb",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37609"
+    },
+    {
+        "id": "5b1f35d03601b50029b9bbe4",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37500"
+    },
+    {
+        "id": "5b1f35d35d11a8002a2fc8ec",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37501"
+    },
+    {
+        "id": "5b1f35d73601b50029b9bbe5",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37502"
+    },
+    {
+        "id": "5b1f35da5d11a8002a2fc8ed",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37503"
+    },
+    {
+        "id": "5b1f35dd3601b50029b9bbe6",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37504"
+    },
+    {
+        "id": "5b1f35df5d11a8002a2fc8ee",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37505"
+    },
+    {
+        "id": "5b1f35e33601b50029b9bbe7",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37506"
+    },
+    {
+        "id": "5b1f35e65d11a8002a2fc8ef",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37507"
+    },
+    {
+        "id": "5b1f35e93601b50029b9bbe8",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37508"
+    },
+    {
+        "id": "5b1f35ec5d11a8002a2fc8f0",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37509"
+    },
+    {
+        "id": "5b1f364b3601b50029b9bbe9",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37201"
+    },
+    {
+        "id": "5b1f36fd5d11a8002a2fc8f1",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-37601"
+    },
+    {
+        "id": "5b1f37823601b50029b9bbea",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "3",
+        "location": "Z31",
+        "quantity": 76,
+        "status": "in_store",
+        "code": "001-01-180529-37200"
+    },
+    {
+        "id": "5b1f3905073384002accea30",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51908"
+    },
+    {
+        "id": "5b1f390af2118600292cb9dc",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51909"
+    },
+    {
+        "id": "5b1f3912073384002accea31",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51907"
+    },
+    {
+        "id": "5b1f3915f2118600292cb9dd",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51904"
+    },
+    {
+        "id": "5b1f3918073384002accea32",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51906"
+    },
+    {
+        "id": "5b1f391cf2118600292cb9de",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51905"
+    },
+    {
+        "id": "5b1f3921073384002accea33",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51902"
+    },
+    {
+        "id": "5b1f3923f2118600292cb9df",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51903"
+    },
+    {
+        "id": "5b1f3925073384002accea34",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51901"
+    },
+    {
+        "id": "5b1f3927f2118600292cb9e0",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51900"
+    },
+    {
+        "id": "5b1f3940073384002accea35",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51800"
+    },
+    {
+        "id": "5b1f3957f2118600292cb9e1",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51801"
+    },
+    {
+        "id": "5b1f395a073384002accea36",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-52100"
+    },
+    {
+        "id": "5b1f395df2118600292cb9e2",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-52101"
+    },
+    {
+        "id": "5b1f3961073384002accea37",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-52102"
+    },
+    {
+        "id": "5b1f3964f2118600292cb9e3",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-52103"
+    },
+    {
+        "id": "5b1f3968073384002accea38",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-52105"
+    },
+    {
+        "id": "5b1f3974f2118600292cb9e4",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-52008"
+    },
+    {
+        "id": "5b1f3976073384002accea39",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-52009"
+    },
+    {
+        "id": "5b1f397af2118600292cb9e5",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-52007"
+    },
+    {
+        "id": "5b1f397c073384002accea3a",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-52006"
+    },
+    {
+        "id": "5b1f3980f2118600292cb9e6",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-52005"
+    },
+    {
+        "id": "5b1f3985f2118600292cb9e7",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-52004"
+    },
+    {
+        "id": "5b1f3989073384002accea3b",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-52003"
+    },
+    {
+        "id": "5b1f398cf2118600292cb9e8",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-52002"
+    },
+    {
+        "id": "5b1f3992073384002accea3c",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 85,
+        "status": "in_store",
+        "code": "001-01-180529-52001"
+    },
+    {
+        "id": "5b1f3999f2118600292cb9e9",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-041",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 81,
+        "status": "in_store",
+        "code": "001-01-180529-52000"
+    },
+    {
+        "id": "5b1f3c8d6b8b8a002a52df46",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51100"
+    },
+    {
+        "id": "5b1f3c98859f510030693293",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51101"
+    },
+    {
+        "id": "5b1f3ca06b8b8a002a52df47",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51102"
+    },
+    {
+        "id": "5b1f3ca9859f510030693294",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51103"
+    },
+    {
+        "id": "5b1f3cb06b8b8a002a52df48",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51104"
+    },
+    {
+        "id": "5b1f3cd2859f510030693295",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51105"
+    },
+    {
+        "id": "5b1f3cda6b8b8a002a52df49",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51106"
+    },
+    {
+        "id": "5b1f3ce36b8b8a002a52df4a",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51107"
+    },
+    {
+        "id": "5b1f3ce8859f510030693296",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51108"
+    },
+    {
+        "id": "5b1f3cef6b8b8a002a52df4b",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51109"
+    },
+    {
+        "id": "5b1f3cfc6b8b8a002a52df4c",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51200"
+    },
+    {
+        "id": "5b1f3d026b8b8a002a52df4d",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51201"
+    },
+    {
+        "id": "5b1f3d06859f510030693297",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51202"
+    },
+    {
+        "id": "5b1f3d096b8b8a002a52df4e",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51203"
+    },
+    {
+        "id": "5b1f3d0d6b8b8a002a52df4f",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51204"
+    },
+    {
+        "id": "5b1f3d11859f510030693298",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51205"
+    },
+    {
+        "id": "5b1f3d156b8b8a002a52df50",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51206"
+    },
+    {
+        "id": "5b1f3d19859f510030693299",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51207"
+    },
+    {
+        "id": "5b1f3d1d6b8b8a002a52df51",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51208"
+    },
+    {
+        "id": "5b1f3d21859f51003069329a",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51209"
+    },
+    {
+        "id": "5b1f3d266b8b8a002a52df52",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51000"
+    },
+    {
+        "id": "5b1f3d2a859f51003069329b",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51001"
+    },
+    {
+        "id": "5b1f3d2e6b8b8a002a52df53",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51002"
+    },
+    {
+        "id": "5b1f3d30859f51003069329c",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51003"
+    },
+    {
+        "id": "5b1f3d346b8b8a002a52df54",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51004"
+    },
+    {
+        "id": "5b1f3d376b8b8a002a52df55",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51005"
+    },
+    {
+        "id": "5b1f3d3b859f51003069329d",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "1",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51006"
+    },
+    {
+        "id": "5b1f3e4b6b8b8a002a52df57",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "2",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51501"
+    },
+    {
+        "id": "5b1f3e56859f51003069329e",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "2",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51502"
+    },
+    {
+        "id": "5b1f3e5d6b8b8a002a52df58",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "2",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51503"
+    },
+    {
+        "id": "5b1f3e62859f51003069329f",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "2",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51504"
+    },
+    {
+        "id": "5b1f3e666b8b8a002a52df59",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "2",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51505"
+    },
+    {
+        "id": "5b1f3e6a859f5100306932a0",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "2",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51506"
+    },
+    {
+        "id": "5b1f3e6e6b8b8a002a52df5a",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "2",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51507"
+    },
+    {
+        "id": "5b1f3e72859f5100306932a1",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "2",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51508"
+    },
+    {
+        "id": "5b1f3e766b8b8a002a52df5b",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "2",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51509"
+    },
+    {
+        "id": "5b1f3e7d859f5100306932a2",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "2",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51400"
+    },
+    {
+        "id": "5b1f3e816b8b8a002a52df5c",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "2",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51401"
+    },
+    {
+        "id": "5b1f3e87859f5100306932a3",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "2",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51403"
+    },
+    {
+        "id": "5b1f3e8a6b8b8a002a52df5d",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "2",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51404"
+    },
+    {
+        "id": "5b1f3e8e859f5100306932a4",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "2",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51405"
+    },
+    {
+        "id": "5b1f3e936b8b8a002a52df5e",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "2",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51406"
+    },
+    {
+        "id": "5b1f3e99859f5100306932a5",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "2",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51408"
+    },
+    {
+        "id": "5b1f3ea1859f5100306932a6",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "2",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51409"
+    },
+    {
+        "id": "5b1f3eac6b8b8a002a52df5f",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "2",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51300"
+    },
+    {
+        "id": "5b1f3eb3859f5100306932a7",
+        "category": {
+            "id": "5b1f28f52ceb9b002e6f01c2",
+            "initial": "A",
+            "name": "A毛"
+        },
+        "pattern": "18-045",
+        "color": "2",
+        "location": "Z31",
+        "quantity": 80,
+        "status": "in_store",
+        "code": "001-01-180529-51301"
+    },
+    {
+        "id": "61d2b1255807c5002a4e1fcb",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "9",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75400"
+    },
+    {
+        "id": "61d2b12af7a59f002b32fbe2",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "9",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75401"
+    },
+    {
+        "id": "61d2b12f5807c5002a4e1fcc",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "9",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75402"
+    },
+    {
+        "id": "61d2b134f7a59f002b32fbe3",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "9",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75403"
+    },
+    {
+        "id": "61d2b1385807c5002a4e1fcd",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "9",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75404"
+    },
+    {
+        "id": "61d2b13df7a59f002b32fbe4",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "8",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75405"
+    },
+    {
+        "id": "61d2b14a5807c5002a4e1fce",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "8",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75700"
+    },
+    {
+        "id": "61d2b150f7a59f002b32fbe5",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "8",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75701"
+    },
+    {
+        "id": "61d2b1575807c5002a4e1fcf",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "8",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75702"
+    },
+    {
+        "id": "61d2b15ef7a59f002b32fbe6",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "8",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75703"
+    },
+    {
+        "id": "61d2b1625807c5002a4e1fd0",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "8",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75704"
+    },
+    {
+        "id": "61d2b167f7a59f002b32fbe7",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "8",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75705"
+    },
+    {
+        "id": "61d2b16d5807c5002a4e1fd1",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "8",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75706"
+    },
+    {
+        "id": "61d2b172f7a59f002b32fbe8",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "8",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75707"
+    },
+    {
+        "id": "61d2b1765807c5002a4e1fd2",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "8",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75708"
+    },
+    {
+        "id": "61d2b17bf7a59f002b32fbe9",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "8",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75709"
+    },
+    {
+        "id": "61d2b1805807c5002a4e1fd3",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "8",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75600"
+    },
+    {
+        "id": "61d2b185f7a59f002b32fbea",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "8",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75601"
+    },
+    {
+        "id": "61d2b18a5807c5002a4e1fd4",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "8",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75602"
+    },
+    {
+        "id": "61d2b18ff7a59f002b32fbeb",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "8",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75603"
+    },
+    {
+        "id": "61d2b1945807c5002a4e1fd5",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "8",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75604"
+    },
+    {
+        "id": "61d2b199f7a59f002b32fbec",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "8",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75605"
+    },
+    {
+        "id": "61d2b19e5807c5002a4e1fd6",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "8",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75606"
+    },
+    {
+        "id": "61d2b1a2f7a59f002b32fbed",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "8",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75607"
+    },
+    {
+        "id": "61d2b1b35807c5002a4e1fd7",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "7",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75900"
+    },
+    {
+        "id": "61d2b1b7f7a59f002b32fbee",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "7",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75901"
+    },
+    {
+        "id": "61d2b1bd5807c5002a4e1fd8",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "7",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75902"
+    },
+    {
+        "id": "61d2b1c0f7a59f002b32fbef",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "7",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75903"
+    },
+    {
+        "id": "61d2b1c55807c5002a4e1fd9",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "7",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75904"
+    },
+    {
+        "id": "61d2b1cbf7a59f002b32fbf0",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "7",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75905"
+    },
+    {
+        "id": "61d2b1d05807c5002a4e1fda",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "7",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75906"
+    },
+    {
+        "id": "61d2b1d3f7a59f002b32fbf1",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "7",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75907"
+    },
+    {
+        "id": "61d2b1d85807c5002a4e1fdb",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "7",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75908"
+    },
+    {
+        "id": "61d2b1dcf7a59f002b32fbf2",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "7",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75909"
+    },
+    {
+        "id": "61d2b1e05807c5002a4e1fdc",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "7",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75800"
+    },
+    {
+        "id": "61d2b1e6f7a59f002b32fbf3",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "7",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75801"
+    },
+    {
+        "id": "61d2b1eb5807c5002a4e1fdd",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "7",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75802"
+    },
+    {
+        "id": "61d2b1eef7a59f002b32fbf4",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "7",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75803"
+    },
+    {
+        "id": "61d2b1f35807c5002a4e1fde",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "7",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75804"
+    },
+    {
+        "id": "61d2b1f8f7a59f002b32fbf5",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "7",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75805"
+    },
+    {
+        "id": "61d2b1fe5807c5002a4e1fdf",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "7",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75806"
+    },
+    {
+        "id": "61d2b203f7a59f002b32fbf6",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "7",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75807"
+    },
+    {
+        "id": "61d2b2075807c5002a4e1fe0",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "7",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75808"
+    },
+    {
+        "id": "61d2b20bf7a59f002b32fbf7",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "3049",
+        "color": "7",
+        "location": "231",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-75809"
+    },
+    {
+        "id": "61d2b2235807c5002a4e1fe1",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "6",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-54402"
+    },
+    {
+        "id": "61d2b229f7a59f002b32fbf8",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "6",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-54403"
+    },
+    {
+        "id": "61d2b22d5807c5002a4e1fe2",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "6",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-54404"
+    },
+    {
+        "id": "61d2b232f7a59f002b32fbf9",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "6",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-54405"
+    },
+    {
+        "id": "61d2b239f7a59f002b32fbfa",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "6",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-54406"
+    },
+    {
+        "id": "61d2b23ef7a59f002b32fbfb",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "6",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-54407"
+    },
+    {
+        "id": "61d2b243f7a59f002b32fbfc",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "6",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-54408"
+    },
+    {
+        "id": "61d2b2475807c5002a4e1fe3",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "6",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-54409"
+    },
+    {
+        "id": "61d2b255f7a59f002b32fbfd",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49607"
+    },
+    {
+        "id": "61d2b25af7a59f002b32fbfe",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49600"
+    },
+    {
+        "id": "61d2b25ef7a59f002b32fbff",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49601"
+    },
+    {
+        "id": "61d2b2625807c5002a4e1fe4",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49602"
+    },
+    {
+        "id": "61d2b266f7a59f002b32fc00",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49603"
+    },
+    {
+        "id": "61d2b26af7a59f002b32fc01",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49604"
+    },
+    {
+        "id": "61d2b26e5807c5002a4e1fe5",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49605"
+    },
+    {
+        "id": "61d2b273f7a59f002b32fc02",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49606"
+    },
+    {
+        "id": "61d2b27c5807c5002a4e1fe6",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49608"
+    },
+    {
+        "id": "61d2b2815807c5002a4e1fe7",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49609"
+    },
+    {
+        "id": "61d2b2855807c5002a4e1fe8",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49500"
+    },
+    {
+        "id": "61d2b28a5807c5002a4e1fe9",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49501"
+    },
+    {
+        "id": "61d2b28ff7a59f002b32fc03",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49502"
+    },
+    {
+        "id": "61d2b2945807c5002a4e1fea",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49503"
+    },
+    {
+        "id": "61d2b299f7a59f002b32fc04",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49504"
+    },
+    {
+        "id": "61d2b29d5807c5002a4e1feb",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49505"
+    },
+    {
+        "id": "61d2b2a2f7a59f002b32fc05",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49506"
+    },
+    {
+        "id": "61d2b2a75807c5002a4e1fec",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49507"
+    },
+    {
+        "id": "61d2b2abf7a59f002b32fc06",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49508"
+    },
+    {
+        "id": "61d2b2b15807c5002a4e1fed",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49509"
+    },
+    {
+        "id": "61d2b2b55807c5002a4e1fee",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49400"
+    },
+    {
+        "id": "61d2b2b9f7a59f002b32fc07",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49401"
+    },
+    {
+        "id": "61d2b2be5807c5002a4e1fef",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49402"
+    },
+    {
+        "id": "61d2b2c3f7a59f002b32fc08",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49403"
+    },
+    {
+        "id": "61d2b2c8f7a59f002b32fc09",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49404"
+    },
+    {
+        "id": "61d2b2cc5807c5002a4e1ff0",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2916",
+        "color": "4",
+        "location": "234",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49405"
+    },
+    {
+        "id": "61d2b2e4f7a59f002b32fc0a",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "9998",
+        "color": "2",
+        "location": "203",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49808"
+    },
+    {
+        "id": "61d2b2f75807c5002a4e1ff1",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "9998",
+        "color": "2",
+        "location": "203",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49809"
+    },
+    {
+        "id": "61d2b2fdf7a59f002b32fc0b",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "9998",
+        "color": "2",
+        "location": "203",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49700"
+    },
+    {
+        "id": "61d2b3015807c5002a4e1ff2",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "9998",
+        "color": "2",
+        "location": "203",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49701"
+    },
+    {
+        "id": "61d2b305f7a59f002b32fc0c",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "9998",
+        "color": "2",
+        "location": "203",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49702"
+    },
+    {
+        "id": "61d2b30bf7a59f002b32fc0d",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "9998",
+        "color": "2",
+        "location": "203",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49703"
+    },
+    {
+        "id": "61d2b3105807c5002a4e1ff3",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "9998",
+        "color": "2",
+        "location": "203",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49704"
+    },
+    {
+        "id": "61d2b314f7a59f002b32fc0e",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "9998",
+        "color": "2",
+        "location": "203",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49705"
+    },
+    {
+        "id": "61d2b31a5807c5002a4e1ff4",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "9998",
+        "color": "2",
+        "location": "203",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49706"
+    },
+    {
+        "id": "61d2b31ef7a59f002b32fc0f",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "9998",
+        "color": "2",
+        "location": "203",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49707"
+    },
+    {
+        "id": "61d2b3245807c5002a4e1ff5",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "9998",
+        "color": "2",
+        "location": "203",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49708"
+    },
+    {
+        "id": "61d2b32af7a59f002b32fc10",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "9998",
+        "color": "2",
+        "location": "203",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49709"
+    },
+    {
+        "id": "61d2b33c5807c5002a4e1ff6",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2524",
+        "color": "8",
+        "location": "202",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49908"
+    },
+    {
+        "id": "61d2b343f7a59f002b32fc11",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2524",
+        "color": "8",
+        "location": "200",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49909"
+    },
+    {
+        "id": "61d2b3485807c5002a4e1ff7",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2524",
+        "color": "8",
+        "location": "202",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49800"
+    },
+    {
+        "id": "61d2b34ef7a59f002b32fc12",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2524",
+        "color": "8",
+        "location": "202",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49801"
+    },
+    {
+        "id": "61d2b3535807c5002a4e1ff8",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2524",
+        "color": "8",
+        "location": "202",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49802"
+    },
+    {
+        "id": "61d2b357f7a59f002b32fc13",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2524",
+        "color": "8",
+        "location": "202",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49803"
+    },
+    {
+        "id": "61d2b35d5807c5002a4e1ff9",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2524",
+        "color": "8",
+        "location": "202",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49804"
+    },
+    {
+        "id": "61d2b361f7a59f002b32fc14",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2524",
+        "color": "8",
+        "location": "202",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49805"
+    },
+    {
+        "id": "61d2b367f7a59f002b32fc15",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2524",
+        "color": "8",
+        "location": "202",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49806"
+    },
+    {
+        "id": "61d2b36c5807c5002a4e1ffa",
+        "category": {
+            "id": "5b1f29292ceb9b002e6f01c6",
+            "initial": "D",
+            "name": "雕印"
+        },
+        "pattern": "2524",
+        "color": "8",
+        "location": "202",
+        "quantity": 100,
+        "status": "in_store",
+        "code": "001-00-211201-49807"
+    }
+]

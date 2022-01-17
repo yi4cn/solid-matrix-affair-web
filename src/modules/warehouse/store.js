@@ -1,4 +1,4 @@
-import { getCategories } from './services/warehouse-service';
+import { getCategories, getItemByPattern } from './services/warehouse-service';
 
 const WarehouseStoreModule = {
     namespace: 'warehouse',
@@ -7,7 +7,7 @@ const WarehouseStoreModule = {
     state: () => ({
         ready: false,
         categories: [],
-        queryItems: [],
+        items: [],
     }),
 
     getters: {
@@ -18,6 +18,9 @@ const WarehouseStoreModule = {
         stopLoad: (state) => state.ready = true,
         updateCategories: (state, categories) => {
             state.categories = categories;
+        },
+        updateItems: (state, items) => {
+            state.items = items;
         }
     },
     actions: {
@@ -27,6 +30,14 @@ const WarehouseStoreModule = {
                 commit('updateCategories', categories)
                 commit('stopLoad');
             })
+        },
+        queryByPattern({ commit }, search) {
+            commit('startLoad');
+            getItemByPattern(search).then(items => {
+                commit('updateItems', items)
+                commit('stopLoad');
+            })
+
         }
     }
 }
