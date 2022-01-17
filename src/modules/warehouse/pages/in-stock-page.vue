@@ -1,16 +1,43 @@
 <template>
-  <sm-title title="In Stock" />
-  <warehouse-layout title="In Stock"> <div>In Stock</div> </warehouse-layout>
+  <sm-title title="快速入仓" />
+  <warehouse-layout title="快速入仓">
+    <div class="wrapper">
+      <sm-list>
+        <sm-list-item title>入仓清单</sm-list-item>
+        <sm-list-item>1</sm-list-item>
+        <sm-list-item>1</sm-list-item>
+        <sm-list-item>1</sm-list-item>
+        <sm-list-item>1</sm-list-item>
+        <sm-list-item>1</sm-list-item>
+        <sm-list-item>1</sm-list-item>
+        <sm-list-item>1</sm-list-item>
+        <sm-list-item>1</sm-list-item>
+        <sm-list-item>1</sm-list-item>
+      </sm-list>
+    </div>
+    <template v-slot:afterFooter>
+      <scan-button @onScan="scan" />
+    </template>
+  </warehouse-layout>
 </template>
 
-<script>
+<script setup>
 import WarehouseLayout from "../components/warehouse-layout.vue";
+import ScanButton from "../components/scan-button.vue";
+import { ref } from "vue";
 
-export default {
-  components: { WarehouseLayout },
-};
+const item = ref({});
+const items = ref([]);
+item;
+items;
+
+const scan = (code) => console.log(code);
 </script>
 
 <style lang="scss" scoped>
 @import "@/assets/const.scss";
+
+.wrapper {
+  padding: $size-2;
+}
 </style>;

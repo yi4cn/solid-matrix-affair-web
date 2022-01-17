@@ -18,6 +18,7 @@
 
     <footer>
       <sm-footer />
+      <slot name="afterFooter" />
     </footer>
   </div>
 </template>
@@ -81,7 +82,7 @@ main {
   padding: 0;
 }
 footer {
-  height: $footer-height;
+  min-height: $footer-height;
   line-height: $footer-height;
   text-align: center;
   font-size: $sm-font-size;

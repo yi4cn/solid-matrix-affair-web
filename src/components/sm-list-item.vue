@@ -20,11 +20,4 @@ export default {
 .list-item-title {
   background-color: $list-color;
 }
-.list-item:first-child {
-  padding-top: 16px;
-}
-.list-item:last-child {
-  border-bottom: 0;
-  padding-bottom: 16px;
-}
 </style>
