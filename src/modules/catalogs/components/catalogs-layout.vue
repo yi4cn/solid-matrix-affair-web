@@ -125,7 +125,7 @@ export default {
       left: 0;
       width: 100%;
       .navbarbox {
-        margin: 8px;
+        margin: 16px;
         .navbar {
           margin: 0 auto;
           position: relative;
