@@ -125,8 +125,9 @@ export default {
       left: 0;
       width: 100%;
       .navbarbox {
+        margin: 8px;
         .navbar {
-          margin: 8px auto;
+          margin: 0 auto;
           position: relative;
           border-radius: 8px;
           font-size: $xl-font-size;

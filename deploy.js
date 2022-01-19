@@ -2,7 +2,7 @@ const OSS = require('ali-oss');
 const path = require("path");
 const fs = require("fs");
 
-require('dotenv').config({ path: ".env." + process.env.NODE_ENV + ".local" });
+require('dotenv').config({ path: ".env.local" });
 
 const client = new OSS({
     region: process.env.DEPLOY_ALI_OSS_REGION,
