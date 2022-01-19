@@ -22,6 +22,7 @@ defineExpose({
 @import "@/assets/const.scss";
 .sm-input-text {
   -webkit-appearance: none;
+  border-radius: 0;
   outline: none;
   display: inline-block;
   box-sizing: content-box;
