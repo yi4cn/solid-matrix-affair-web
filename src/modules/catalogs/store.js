@@ -48,7 +48,7 @@ export default {
                     state.loading = false;
                     return;
                 }
-                const { caption, title, subTitle, catalogs, styles } = metaData;
+                const { caption, title, subTitle, catalogs } = metaData;
                 const catalogMap = {};
                 const designMap = {};
 
@@ -60,11 +60,11 @@ export default {
                         const design = catalog.designs[j];
 
                         // initial url with style;
-                        const styleNames = Object.keys(styles);
+                        const styleNames = ['thumbnail', 'small', 'medium', 'large'];
                         design.url = {};
                         for (let k = 0; k < styleNames.length; k++) {
                             const styleName = styleNames[k];
-                            design.url[styleName] = getDesignUrl(design, styles[styleName].subUrl);
+                            design.url[styleName] = getDesignUrl(design, styleName);
                         }
 
                         design.catalog = catalogMap[design.catalogId];

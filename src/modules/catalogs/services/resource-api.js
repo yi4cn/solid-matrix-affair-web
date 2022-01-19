@@ -12,5 +12,5 @@ export async function getMeta() {
 }
 
 export function getDesignUrl(design, style) {
-    return apiUrl + "/res/" + design.id + "/" + style;
+    return apiUrl + "/subimage/" + design.id + "/" + style;
 }
