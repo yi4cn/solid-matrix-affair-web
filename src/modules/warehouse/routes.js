@@ -5,14 +5,14 @@ const routes = [
         component: require('./pages/dashboard-page.vue').default,
     },
     {
-        path: '/warehouse/in-stock/',
-        name: 'warehouse-in-stock',
-        component: require('./pages/in-stock-page.vue').default
+        path: '/warehouse/in-store/',
+        name: 'warehouse-in-store',
+        component: require('./pages/in-store-page.vue').default
     },
     {
-        path: '/warehouse/out-stock/',
-        name: 'warehouse-out-stock',
-        component: require('./pages/out-stock-page.vue').default
+        path: '/warehouse/out-store/',
+        name: 'warehouse-out-store',
+        component: require('./pages/out-store-page.vue').default
     },
     {
         path: '/warehouse/query-pattern/',
