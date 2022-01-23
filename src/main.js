@@ -1,12 +1,12 @@
 import { createApp } from 'vue';
-import RouterLayout from '@/components/router-layout.vue';
+import SmRouterLayout from '@/components/sm-router-layout.vue';
 
 import router from '@/router';
 import store from '@/store';
 import register from './register';
 
 // app
-const app = createApp(RouterLayout);
+const app = createApp(SmRouterLayout);
 app.use(router);
 app.use(store);
 

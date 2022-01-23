@@ -16,6 +16,8 @@ export default app => {
     app.component('sm-vcenter', require('@/components/sm-vcenter').default);
     app.component('sm-blank', require('@/components/sm-blank').default);
     app.component('sm-tree', require('@/components/sm-tree').default);
+    app.component('sm-alert', require('@/components/sm-alert').default);
+
 
     app.component('sm-input-group', require('@/components/sm-input-group').default);
     app.component('sm-input-label', require('@/components/sm-input-label').default)
