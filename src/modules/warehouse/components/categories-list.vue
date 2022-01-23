@@ -4,15 +4,7 @@
       <category-edit-input :category="category" @onSubmit="onSubmit" />
     </sm-modal>
     <sm-list>
-      <sm-list-item title class="title"
-        >品类
-        <sm-input-button
-          v-if="editable"
-          class="new-btn"
-          @click="editCategory({})"
-          >新建</sm-input-button
-        ></sm-list-item
-      >
+      <sm-list-item title class="title">品类</sm-list-item>
       <sm-list-item v-for="category in categories" :key="category.id">
         <sm-input-button
           v-if="editable"
@@ -28,6 +20,15 @@
         >
         <sm-tag class="initial">{{ category.initial }}</sm-tag>
         <span class="name">{{ category.name }}</span>
+      </sm-list-item>
+
+      <sm-list-item
+        ><sm-input-button
+          v-if="editable"
+          class="new-btn"
+          @click="editCategory({})"
+          >新建</sm-input-button
+        >
       </sm-list-item>
     </sm-list>
   </div>
@@ -87,7 +88,6 @@ defineProps({
 }
 .new-btn {
   margin: 0 4px;
-  background-color: $success-color;
 }
 .edit-btn {
   margin: 0 4px;
