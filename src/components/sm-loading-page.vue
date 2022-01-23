@@ -20,10 +20,10 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: $primary-color;
+  background-color: rgba($primary-color, 0.2);
   .loading-icon {
     position: relative;
-    color: white;
+    color: $auxiliary-color;
     width: 64px;
     height: 64px;
     top: -32px;

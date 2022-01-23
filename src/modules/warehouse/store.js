@@ -37,18 +37,44 @@ export default {
                     throw e;
                 })
         },
-
-        updateCategory({ commit }, id, data) {
+        createCategory({ commit, dispatch }, { data }) {
             commit('startLoad');
-            return CategoryService.update(id, data)
-                .then(category => {
-                    console.log(category);
+            return CategoryService.create(data)
+                .then(() => {
                     commit('stopLoad');
                 })
                 .catch(e => {
                     commit('stopLoad');
                     throw e;
                 })
+                .then(() => dispatch('fetchCategories'))
+
+        },
+        updateCategory({ commit, dispatch }, { id, data }) {
+            commit('startLoad');
+            return CategoryService.update(id, data)
+                .then(() => {
+                    commit('stopLoad');
+                })
+                .catch(e => {
+                    commit('stopLoad');
+                    throw e;
+                })
+                .then(() => dispatch('fetchCategories'))
+
+        },
+        deleteCategory({ commit, dispatch }, { id }) {
+            commit('startLoad');
+            return CategoryService.delete(id)
+                .then(() => {
+                    commit('stopLoad');
+                })
+                .catch(e => {
+                    commit('stopLoad');
+                    throw e;
+                })
+                .then(() => dispatch('fetchCategories'))
+
         },
 
         clearItems({ commit }) {

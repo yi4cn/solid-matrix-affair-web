@@ -1,6 +1,6 @@
 <template>
   <sm-loading-page v-if="!ready" />
-  <div class="layout" v-if="ready">
+  <div class="layout">
     <header>
       <nav>
         <div

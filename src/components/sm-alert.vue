@@ -31,6 +31,7 @@ setTimeout(() => (show.value = false), 2000);
 .sm-alert {
   width: $size-2 * 10;
   background-color: $primary-color;
+  color: $light-0-color;
   margin: $size-1;
   padding: $size-1 $size-3;
   text-align: center;
