@@ -8,13 +8,19 @@
 </template>
 
 <script setup>
-import { computed, ref } from "vue";
+import { computed, ref, inject } from "vue";
 import { useStore } from "vuex";
 import CategoriesList from "../components/categories-list.vue";
 import WarehouseLayout from "../components/warehouse-layout.vue";
 
+const alert = inject("sm-alert");
+
 const store = useStore();
-store.dispatch("warehouse/fetchCategories");
+
+store
+  .dispatch("warehouse/fetchCategories")
+  .then(() => alert.success("载入成功"))
+  .catch(() => alert.error("载入失败"));
 
 const editable = ref(true);
 const categories = computed(() => store.state.warehouse.categories);

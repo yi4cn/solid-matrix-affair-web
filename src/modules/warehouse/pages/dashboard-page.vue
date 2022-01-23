@@ -28,6 +28,7 @@
 <script>
 import PanelCard from "../components/panel-card.vue";
 import WarehouseLayout from "../components/warehouse-layout.vue";
+
 const funcs = [
   { icon: "import", name: "快速入仓", route: "warehouse-in-store" },
   { icon: "export", name: "快速出仓", route: "warehouse-out-store" },

@@ -25,7 +25,7 @@
 
 <script>
 import { useStore } from "vuex";
-import { computed } from "@vue/reactivity";
+import { computed } from "vue";
 
 export default {
   props: {
@@ -34,7 +34,6 @@ export default {
   setup() {
     const store = useStore();
     const ready = computed(() => store.state.warehouse.ready);
-    setTimeout(() => store.commit("warehouse/stopLoad"), 500);
     return {
       ready,
     };

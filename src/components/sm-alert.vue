@@ -1,9 +1,11 @@
 <template>
-  <transition name="fade">
-    <div v-if="show" :class="'sm-alert sm-alert-' + (type || 'info')">
-      <slot />
-    </div>
-  </transition>
+  <teleport to="#sm-alert-container">
+    <transition name="fade">
+      <div v-if="show" :class="'sm-alert sm-alert-' + (type || 'info')">
+        <slot />
+      </div>
+    </transition>
+  </teleport>
 </template>
 <script setup>
 import { ref, defineProps } from "vue";

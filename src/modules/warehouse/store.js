@@ -1,11 +1,12 @@
-import { getCategories, getItemsByPattern, getItemsByLocation } from './services/warehouse-service';
+import { getItemsByPattern, getItemsByLocation } from './services/warehouse-service';
+import CategoryService from './services/category-service';
 
 export default {
     namespace: 'warehouse',
     namespaced: true,
 
     state: () => ({
-        ready: false,
+        ready: true,
         categories: [],
         items: [],
     }),
@@ -26,11 +27,30 @@ export default {
     actions: {
         fetchCategories({ commit }) {
             commit('startLoad');
-            getCategories().then(categories => {
-                commit('updateCategories', categories)
-                commit('stopLoad');
-            })
+            return CategoryService.index()
+                .then(categories => {
+                    commit('updateCategories', categories)
+                    commit('stopLoad');
+                })
+                .catch(e => {
+                    commit('stopLoad');
+                    throw e;
+                })
         },
+
+        updateCategory({ commit }, id, data) {
+            commit('startLoad');
+            return CategoryService.update(id, data)
+                .then(category => {
+                    console.log(category);
+                    commit('stopLoad');
+                })
+                .catch(e => {
+                    commit('stopLoad');
+                    throw e;
+                })
+        },
+
         clearItems({ commit }) {
             commit('updateItems', [])
         },

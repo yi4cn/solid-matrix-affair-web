@@ -18,6 +18,6 @@
 </template>
 <script setup>
 import { inject } from "vue";
-const alert = inject("alert");
+const alert = inject("sm-alert");
 </script>
 <style lang="scss" scoped></style>

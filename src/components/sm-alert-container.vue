@@ -1,9 +1,8 @@
 <template>
-  <div id="sm-alert-container">
-    <sm-alert v-for="(alert, i) in alerts" :key="i" :type="alert.type">
-      {{ alert.text }}
-    </sm-alert>
-  </div>
+  <div id="sm-alert-container"></div>
+  <sm-alert v-for="(alert, i) in alerts" :key="i" :type="alert.type">
+    {{ alert.text }}
+  </sm-alert>
   <slot />
 </template>
 <script setup>
@@ -11,7 +10,7 @@ import { provide, ref } from "vue";
 
 const alerts = ref([]);
 
-provide("alert", {
+provide("sm-alert", {
   success: (text) => alerts.value.push({ type: "success", text }),
   warning: (text) => alerts.value.push({ type: "warning", text }),
   error: (text) => alerts.value.push({ type: "error", text }),
