@@ -11,37 +11,66 @@ const client = new OSS({
     bucket: process.env.DEPLOY_ALI_OSS_BUCKET
 });
 
-async function onload(remotePath, localPath) {
+async function ossDelete(name, options) {
     try {
-        // 填写OSS文件完整路径和本地文件的完整路径。OSS文件完整路径中不能包含Bucket名称。
-        // 如果本地文件的完整路径中未指定本地路径，则默认从示例程序所属项目对应本地路径中上传文件。
-        const result = await client.put(remotePath, path.normalize(localPath));
-        // const result = await client.put('exampleobject.txt', path.normalize('D:\\localpath\\examplefile.txt', headers));    
-        if (result.res.status != 200) {
-            console.log(result);
-        }
-    } catch (e) {
-        console.log(e);
+        await client.delete(name);
+    } catch (error) {
+        console.error(error);
     }
 }
 
-function traverse(currentPath, callback) {
-    fs.readdirSync(currentPath).forEach(function (name) {
-        var filePath = path.join(currentPath, name);
-        var stat = fs.statSync(filePath);
-        if (stat.isFile()) {
-            callback(filePath, stat);
-        } else if (stat.isDirectory()) {
-            traverse(filePath, callback);
-        }
+async function ossUpload(remotePath, localPath) {
+    try {
+        await client.put(remotePath, path.normalize(localPath));
+    } catch (e) {
+        console.error(e);
+    }
+}
+
+async function ossList() {
+    try {
+        let { objects } = await client.list();
+        return objects;
+    } catch (error) {
+        console.error(error);
+    }
+}
+
+async function ossDeleteAll() {
+    let objects = await ossList() || [];
+    await Promise.all(objects.map((v) => ossDelete(v.name)));
+}
+
+async function ossUploadAll() {
+    function traverse(currentPath, callback) {
+        fs.readdirSync(currentPath).forEach(function (name) {
+            var filePath = path.join(currentPath, name);
+            var stat = fs.statSync(filePath);
+            if (stat.isFile()) {
+                callback(filePath, stat);
+            } else if (stat.isDirectory()) {
+                traverse(filePath, callback);
+            }
+        });
+    }
+    traverse("./dist", (filePath, stat) => {
+        const localPath = filePath;
+
+        const pathfgs = filePath.split(path.sep);
+        pathfgs.shift();
+        const remotePath = path.join(...pathfgs);
+
+        ossUpload(remotePath, localPath);
     });
 }
 
-traverse("./dist", (filePath, stat) => {
-    const pathfgs = filePath.split(path.sep);
-    pathfgs.shift();
-    const localPath = filePath;
-    const remotePath = path.join(...pathfgs);
-    onload(remotePath, localPath);
-});
+(async function run() {
+    await ossDeleteAll();
+    console.log('deleted all');
+    await ossUploadAll();
+    console.log('uploaded all');
+})();
+
+
+
 
