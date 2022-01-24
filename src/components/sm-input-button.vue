@@ -23,7 +23,7 @@ export default {
   width: auto;
   padding: 8px;
   margin: 0;
-  border: 0px $primary-color solid;
+  border: 1px $primary-color solid;
   line-height: 1em;
   font-size: 1em;
   background-color: $primary-color;
