@@ -1,6 +1,6 @@
 <template>
   <sm-loading-page v-if="!ready" />
-  <div v-if="ready" class="layout">
+  <div v-else class="layout">
     <!-- Header -->
     <header>
       <div class="caption">

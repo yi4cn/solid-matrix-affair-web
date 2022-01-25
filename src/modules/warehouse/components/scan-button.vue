@@ -6,9 +6,12 @@
 </template>
 <script setup>
 import { defineEmits } from "vue";
+import { WxScanQRCode } from "@/utils/wx";
+
 const emit = defineEmits(["onScan"]);
-const scan = () => {
-  emit("onScan", "sample-code");
+const scan = async () => {
+  const code = await WxScanQRCode();
+  emit("onScan", code);
 };
 </script>
 <style lang="scss" scoped>

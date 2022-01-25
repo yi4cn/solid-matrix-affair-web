@@ -1,9 +1,9 @@
 <template>
-  <sm-wxauth>
-    <sm-alert-container>
+  <sm-alert-container>
+    <sm-wxauth>
       <router-view />
-    </sm-alert-container>
-  </sm-wxauth>
+    </sm-wxauth>
+  </sm-alert-container>
 </template>
 
 <script setup>

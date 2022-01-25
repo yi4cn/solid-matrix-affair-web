@@ -2,8 +2,9 @@
   <div class="wrapper">
     <h1>Test Page</h1>
 
-    <h2>Current Url</h2>
-    <div>{{ currentUrl }}</div>
+    <h2>Basic Info</h2>
+    <div><b>Current Url:</b> {{ currentUrl }}</div>
+    <div><b>UserAgent：</b> {{ userAgent }}</div>
 
     <h2>Environment</h2>
     <div v-if="IsWxEnv()">In Weixin Browser</div>
@@ -25,6 +26,7 @@ console.debug = (...data) => {
 };
 
 const currentUrl = window.location;
+const userAgent = window.navigator.userAgent;
 
 const scan = () => {
   WxScanQRCode()

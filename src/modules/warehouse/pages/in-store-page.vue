@@ -24,14 +24,15 @@
 <script setup>
 import WarehouseLayout from "../components/warehouse-layout.vue";
 import ScanButton from "../components/scan-button.vue";
-import { ref } from "vue";
+import { inject, ref } from "vue";
 
 const item = ref({});
 const items = ref([]);
-item;
-items;
+const alert = inject("sm-alert");
 
-const scan = (code) => console.log(code);
+const scan = (code) => {
+  alert.success(code);
+};
 </script>
 
 <style lang="scss" scoped>

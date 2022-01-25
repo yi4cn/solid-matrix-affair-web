@@ -10,6 +10,15 @@ export function IsWxEnv() {
     }
 }
 
+export function IsWxIPhoneEnv() {
+    var ua = navigator.userAgent.toLowerCase();
+    if (ua.indexOf('iphone') != -1) {
+        return true && IsWxEnv();
+    } else {
+        return false;
+    }
+}
+
 export function WxGetAuthConnectUrl(scope = 'snsapi_base', state) {
     const appid = process.env['VUE_APP_WX_APP_ID'];
     const redirect_uri = new UrlBuilder(window.location).fragment('').query(null).toString();
@@ -56,8 +65,15 @@ let jsApiList = [
     'updateTimelineShareData',
 ];
 
+const originalUrl = new UrlBuilder(window.location).fragment('').toString();
+
 export async function WxJsApiSetup() {
-    const pageUrl = new UrlBuilder(window.location).fragment('').toString();
+    const nowUrl = new UrlBuilder(window.location).fragment('').toString();
+
+    // to fix the incompatibility between vue and iphone weixin environment
+    // iphone will use the entry url
+    // android will use the current url
+    const pageUrl = IsWxIPhoneEnv() ? originalUrl : nowUrl;
     const baseUrl = process.env['VUE_APP_WX_JSAPI_TICKET_BASE_URL'];
     const url = new UrlBuilder(baseUrl).query({ url: pageUrl }).toString();
 

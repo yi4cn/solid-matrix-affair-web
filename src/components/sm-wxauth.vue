@@ -1,6 +1,6 @@
 <template>
   <sm-loading-page v-if="!ready" />
-  <slot></slot>
+  <slot v-else></slot>
 </template>
 <script setup>
 import {
@@ -40,8 +40,6 @@ onMounted(() => {
   } else if (state.value === WX_PAGE_STAT.TO_AUTH) {
     WxAuthGetOpenid().then((res) => {
       const { openid } = res;
-      console.debug("openid", openid);
-
       router.replace({ query: {} });
       state.value = WX_PAGE_STAT.AUTHED;
       ready.value = true;
