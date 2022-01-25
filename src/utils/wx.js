@@ -1,3 +1,5 @@
+import axios from 'axios';
+import { UrlBuilder } from './url';
 /*
 appid               公众号的唯一标识
 redirect_uri        授权后重定向的回调链接地址， 请使用 urlEncode 对链接进行处理
@@ -30,11 +32,80 @@ export function getWxRedirectParams(url = window.location) {
     return { code, state, baseUrl };
 }
 
-export function isWxEnv() {
+export function IsWxEnv() {
     var ua = navigator.userAgent.toLowerCase();
     if (ua.indexOf('micromessenger') != -1) {
         return true;
     } else {
         return false;
     }
+}
+
+let jsApiConfigUrl = '';
+let jsApiList = [
+    'scanQRCode',
+    'hideAllNonBaseMenuItem',
+    'updateAppMessageShareData',
+    'updateTimelineShareData',
+];
+
+export async function WxJsApiSetup() {
+    const pageUrl = new UrlBuilder(window.location).fragment('').toString();
+    const baseUrl = process.env['VUE_APP_JSAPI_TICKET_BASE_URL'];
+    const url = new UrlBuilder(baseUrl).query({ url: pageUrl }).toString();
+
+    return new Promise((resolve, reject) => {
+        if (jsApiConfigUrl == pageUrl) return resolve();
+        axios({ method: 'get', url }).then(({ data }) => {
+            wx.config({ debug: false, ...data, jsApiList });
+            wx.ready(() => {
+                jsApiConfigUrl = pageUrl;
+                resolve();
+            });
+            wx.error(res => {
+                console.debug('Wx Js Api Config Failed');
+                reject(res);
+            });
+        })
+    });
+}
+
+export async function WxScanQRCode() {
+    await WxJsApiSetup();
+    return new Promise((resolve, reject) => {
+        wx.scanQRCode({
+            needResult: 1,
+            scanType: ["qrCode", "barCode"],
+            success: res => resolve(res.resultStr),
+            fail: res => reject(res)
+        });
+    })
+}
+
+export async function WxHideAllNonBaseMenuItem() {
+    await WxJsApiSetup();
+    wx.hideAllNonBaseMenuItem();
+}
+
+export async function WxUpdateAppMessageShareData(title, desc, link, imgUrl) {
+    await WxJsApiSetup();
+    return new Promise((resolve, reject) => {
+        wx.updateAppMessageShareData({
+            title, desc, link, imgUrl,
+            success: resolve,
+            fail: reject
+        })
+    })
+
+}
+
+export async function WxUpdateTimelineShareData(title, link, imgUrl) {
+    await WxJsApiSetup();
+    return new Promise((resolve, reject) => {
+        wx.updateTimelineShareData({
+            title, link, imgUrl,
+            success: resolve,
+            fail: reject
+        })
+    })
 }

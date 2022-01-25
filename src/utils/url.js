@@ -207,8 +207,8 @@ export function parseUrl(url) {
 export class UrlBuilder {
     constructor(baseUrl) {
         let url = {};
-        if (typeof baseUrl === 'string') {
-            url = parseUrl(baseUrl);
+        if (baseUrl !== undefined) {
+            url = parseUrl(baseUrl.toString());
         }
 
         this._protocol = url._protocol || '';

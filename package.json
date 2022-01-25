@@ -38,6 +38,9 @@
   },
   "eslintConfig": {
     "root": true,
+    "globals": {
+      "wx": true
+    },
     "env": {
       "node": true
     },

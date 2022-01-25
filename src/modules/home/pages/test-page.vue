@@ -1,23 +1,41 @@
 <template>
-  <h1>Test Page</h1>
-  <sm-input-button @click="alert.success('success' + Date.now())"
-    >Success</sm-input-button
-  >
-  <sm-blank size="sm" />
-  <sm-input-button @click="alert.warning('warning' + Date.now())"
-    >Warning</sm-input-button
-  >
-  <sm-blank size="sm" />
-  <sm-input-button @click="alert.error('error' + Date.now())"
-    >Error</sm-input-button
-  >
-  <sm-blank size="sm" />
-  <sm-input-button @click="alert.info('info' + Date.now())"
-    >Info</sm-input-button
-  >
+  <div class="wrapper">
+    <h1>Test Page</h1>
+
+    <h2>Current Url</h2>
+    <div>{{ currentUrl }}</div>
+
+    <h2>Environment</h2>
+    <div v-if="isWx">In Weixin Browser</div>
+    <div v-else>Not In Weixin Browser</div>
+
+    <h2>Console</h2>
+    <pre><code id="console"></code></pre>
+
+    <h2>Scan QR Code</h2>
+    <sm-input-button @click="scan">Scan</sm-input-button>
+  </div>
 </template>
 <script setup>
-import { inject } from "vue";
-const alert = inject("sm-alert");
+import { IsWxEnv, WxScanQRCode } from "@/utils/wx";
+import { ref } from "vue";
+
+console.debug = (...data) => {
+  document.getElementById("console").innerHTML +=
+    data.map((obj) => obj.toString()).join(" ") + "\n";
+};
+
+const currentUrl = window.location;
+const isWx = IsWxEnv();
+
+const scan = () => {
+  WxScanQRCode()
+    .then((code) => console.debug("扫码成功", code))
+    .catch((res) => console.debug("扫码失败", JSON.stringify(res)));
+};
 </script>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.wrapper {
+  padding: 16px;
+}
+</style>
