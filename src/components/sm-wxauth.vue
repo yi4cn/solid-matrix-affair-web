@@ -1,7 +1,19 @@
-<script>
-import { isWxEnv, getWxConnectUrl, getWxRedirectParams } from "@/utils/wx";
-import { h, reactive } from "@vue/runtime-core";
-import smLoadingPage from "./sm-loading-page.vue";
+<template>
+  <sm-loading-page v-if="!ready" />
+  <slot></slot>
+</template>
+<script setup>
+import {
+  IsWxEnv,
+  WxAuthConnect,
+  WxAuthGetStatus,
+  WxAuthGetOpenid,
+} from "@/utils/wx";
+
+import { ref, onMounted } from "vue";
+import { useRouter } from "vue-router";
+
+const router = useRouter();
 
 const WX_PAGE_STAT = {
   INITIAL: 0,
@@ -10,43 +22,30 @@ const WX_PAGE_STAT = {
   AUTHED: 3,
 };
 
-const appid = process.env["VUE_APP_WX_APPID"];
-const redirectUrl = window.location.origin + window.location.pathname;
-const wxConnectUrl = getWxConnectUrl(appid, redirectUrl);
+const state = ref(WX_PAGE_STAT.INITIAL);
+const ready = ref(false);
 
-export default {
-  setup(_, { slots }) {
-    const state = reactive({
-      wxstat: WX_PAGE_STAT.INITIAL,
-    });
-
-    if (isWxEnv()) state.wxstat = WX_PAGE_STAT.TO_CONNECT;
-
-    const { code } = getWxRedirectParams();
-    if (code !== null) {
-      state.wxstat = WX_PAGE_STAT.TO_AUTH;
-      // auth by auth
-      new Promise((res) => {
-        setTimeout(() => res(), 1000);
-      }).then(() => {
-        state.wxstat = WX_PAGE_STAT.AUTHED;
-      });
+onMounted(() => {
+  if (IsWxEnv()) {
+    state.value = WX_PAGE_STAT.TO_CONNECT;
+    if (WxAuthGetStatus()) {
+      state.value = WX_PAGE_STAT.TO_AUTH;
     }
+  }
 
-    return () => {
-      if (state.wxstat === WX_PAGE_STAT.INITIAL) {
-        return h(slots.default);
-      } else if (state.wxstat === WX_PAGE_STAT.TO_CONNECT) {
-        window.location.href = wxConnectUrl;
-      } else if (state.wxstat === WX_PAGE_STAT.TO_AUTH) {
-        return h(smLoadingPage);
-      } else if (state.wxstat === WX_PAGE_STAT.AUTHED) {
-        return h(slots.default);
-      }
-    };
-  },
-};
+  if (state.value === WX_PAGE_STAT.INITIAL) {
+    ready.value = true;
+  } else if (state.value === WX_PAGE_STAT.TO_CONNECT) {
+    WxAuthConnect();
+  } else if (state.value === WX_PAGE_STAT.TO_AUTH) {
+    WxAuthGetOpenid().then((res) => {
+      const { openid } = res;
+      console.debug("openid", openid);
+
+      router.replace({ query: {} });
+      state.value = WX_PAGE_STAT.AUTHED;
+      ready.value = true;
+    });
+  }
+});
 </script>
-
-<style>
-</style>

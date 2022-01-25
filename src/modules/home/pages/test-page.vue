@@ -6,7 +6,7 @@
     <div>{{ currentUrl }}</div>
 
     <h2>Environment</h2>
-    <div v-if="isWx">In Weixin Browser</div>
+    <div v-if="IsWxEnv()">In Weixin Browser</div>
     <div v-else>Not In Weixin Browser</div>
 
     <h2>Console</h2>
@@ -18,7 +18,6 @@
 </template>
 <script setup>
 import { IsWxEnv, WxScanQRCode } from "@/utils/wx";
-import { ref } from "vue";
 
 console.debug = (...data) => {
   document.getElementById("console").innerHTML +=
@@ -26,12 +25,11 @@ console.debug = (...data) => {
 };
 
 const currentUrl = window.location;
-const isWx = IsWxEnv();
 
 const scan = () => {
   WxScanQRCode()
-    .then((code) => console.debug("扫码成功", code))
-    .catch((res) => console.debug("扫码失败", JSON.stringify(res)));
+    .then((code) => console.debug("Scan Success", code))
+    .catch((res) => console.debug("Scan Fail", JSON.stringify(res)));
 };
 </script>
 <style lang="scss" scoped>
