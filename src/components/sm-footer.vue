@@ -1,7 +1,9 @@
 <template>
   <div>
-    Powered By <b>SolidMatrix.Affair</b> Engine.
-    <a :href="beianLink" target="_blank">{{ beianNo }}</a>
+    <div>Powered By <b>SolidMatrix.Affair</b> Engine.</div>
+    <div>
+      <a :href="beianLink" target="_blank">{{ beianNo }}</a>
+    </div>
   </div>
 </template>
 

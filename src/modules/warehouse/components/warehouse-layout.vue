@@ -1,6 +1,6 @@
 <template>
   <sm-loading-page v-if="!ready" />
-  <div class="layout">
+  <div v-if="ready" class="layout">
     <header>
       <nav>
         <div
@@ -15,7 +15,6 @@
     <main>
       <slot></slot>
     </main>
-
     <footer>
       <sm-footer />
       <slot name="afterFooter" />
@@ -81,10 +80,9 @@ main {
   padding: 0;
 }
 footer {
-  min-height: $footer-height;
-  line-height: $footer-height;
-  text-align: center;
+  padding: $size-2 $size-1;
+  line-height: $sm-font-size * 2;
   font-size: $sm-font-size;
-  padding: 0 32px;
+  text-align: center;
 }
 </style>
