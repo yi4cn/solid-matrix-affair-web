@@ -3,9 +3,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "staging": "NODE_ENV=development node deploy.js",
-    "deploy": "NODE_ENV=production node deploy.js",
+    "build": "vue-cli-service build && docker build -t antenna3mt/solid-matrix-affair-web .",
+    "push": "docker push antenna3mt/solid-matrix-affair-web",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
