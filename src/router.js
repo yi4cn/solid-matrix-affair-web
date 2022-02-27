@@ -1,9 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
 import CatalogsRoutes from '@/modules/catalogs/routes';
-import WarehouseRoutes from '@/modules/warehouse/routes';
-import ToolkitsRoutes from '@/modules/toolkits/routes';
-import HomeRoutes from '@/modules/home/routes';
+import DashboardRoutes from '@/modules/dashboard/routes';
+import HomeRoutes from '@/modules/home/routes'
 
 const routes = [
     {
@@ -12,8 +11,7 @@ const routes = [
         redirect: { name: 'catalogs' }
     },
     ...CatalogsRoutes,
-    ...WarehouseRoutes,
-    ...ToolkitsRoutes,
+    ...DashboardRoutes,
     ...HomeRoutes,
 ];
 

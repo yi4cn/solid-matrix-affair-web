@@ -299,7 +299,6 @@ export class UrlBuilder {
 
     ToQuery() {
         const queryString = stringifyQuery(this._query);
-        console.log(queryString);
         return queryString && queryString.length > 0 ? "?" + queryString : "";
     }
 
